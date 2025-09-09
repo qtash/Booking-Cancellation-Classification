@@ -6,16 +6,15 @@ Pembatalan pemesanan merupakan salah satu tantangan terbesar dalam industri perh
 
 Oleh karena itu, pemanfaatan model machine learning untuk memprediksi potensi pembatalan menjadi solusi penting agar hotel dapat merancang strategi harga, kebijakan pembatalan, dan penawaran yang lebih tepat sasaran, sehingga kerugian dapat ditekan sekaligus meningkatkan kepuasan serta loyalitas tamu.
 
-
 ### Problem
 Tingginya tingkat pembatalan pemesanan kamar hotel menjadi tantangan bagi pihak hotel karena pembatalan yang terjadi mendekati waktu kedatangan sulit untuk diantisipasi. 
 
-## Goals & Strategy
+### Goals & Strategy
 Mengidentifikasi variabel-variable yang paling berpengaruh terhadap kemungkinan pembatalan melalui analisis konvensional dan prediksi menggunakan machine learning. 
 
 Hasil analisis dan prediksi ini diharapkan dapat mendukung pengambilan keputusan dalam strategi harga, kebijakan pembatalan, dan alokasi kamar agar lebih efektif dan adaptif terhadap perilaku pelanggan, yang kemudian dapat mengurangi kerugian akibat pembatalan dengan mengidentifikasi pemesanan berisiko tinggi sejak awal.
 
-### Current Best Model
+## **Current Best Model**
 Tuned XGBoost model dengan skor F0.5 0.73 dan Precision 0.75. 
 #### Most important feature: required_car_parking_spaces
 
