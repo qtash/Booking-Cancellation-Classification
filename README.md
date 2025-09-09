@@ -1,6 +1,8 @@
 # Hotel Booking Cancelation Prediction ML Model
 Analisis data dan prediksi (menggunakan machine learning) mengenai pembatalan reservasi booking hotel. 
 
+![alt text](https://github.com/qtash/Booking-Cancellation-Classification/blob/main/Tableau%20Dashboard.png)
+
 ## Background
 Pembatalan pemesanan merupakan salah satu tantangan terbesar dalam industri perhotelan karena berdampak langsung pada tingkat hunian dan pendapatan. Kasus pembatalan (khususnya yang terjadi mendekati tanggal kedatangan) membuat hotel kesulitan. Kompleksitas masalah semakin tinggi karena alasan pembatalan sangat beragam, mulai dari perubahan rencana perjalanan hingga preferensi pelanggan, sehingga sulit diantisipasi tanpa analisis mendalam. 
 
