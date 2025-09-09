@@ -1,5 +1,5 @@
 # **Hotel Booking Cancelation Prediction ML Model**
-Analisis data dan prediksi (menggunakan machine learning) mengenai pembatalan reservasi booking hotel. 
+Analisis data dan prediksi (menggunakan machine learning) mengenai pembatalan reservasi booking hotel menggunakan [dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand/data). 
 
 ![alt text](https://github.com/qtash/Booking-Cancellation-Classification/blob/main/Tableau%20Dashboard.png)
 
