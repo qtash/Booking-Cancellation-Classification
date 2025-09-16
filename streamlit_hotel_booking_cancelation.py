@@ -1,3 +1,6 @@
+
+import warnings
+warnings.filterwarnings("ignore", message=".*missing ScriptRunContext.*")
 import pandas as pd
 import streamlit as st
 import joblib
@@ -81,12 +84,12 @@ def load_model():
     if not hasattr(sklearn.compose._column_transformer, '_RemainderColsList'):
         sklearn.compose._column_transformer._RemainderColsList = _RemainderColsList
 
-    model_path = 'hotel_cancellation_model_simple.pkl'
+    model_path = '/Users/ilham/Documents/final_project_draft/hotel_cancellation_model.pkl'
     try:
         pipeline = joblib.load(model_path)
         return pipeline
     except FileNotFoundError:
-        st.error("❌ Model file not found. Please make sure 'hotel_cancellation_model_simple.pkl' is in the same directory.")
+        st.error("❌ Model file not found. Please make sure 'hotel_cancellation_model.pkl' is in the same directory.")
         return None
     except Exception as e:
         st.error(f"🛑 Error loading model: {str(e)}")
