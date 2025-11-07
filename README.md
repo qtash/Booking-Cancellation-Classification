@@ -26,8 +26,8 @@ Domiansi kepentingan finansial, karakteristik reservasi, pola geografis, dan keb
 Model terbaik yang dihasilkan mampu mendeteksi 65.3% dari seluruh pembatalan yang benar-benar terjadi (berdasarkan recall-nya), dan dari semua prediksi pada training set yang diberikan, 75.6% nya benar-benar akan dibatalkan (berdasarkan precision-nya). Model masih dapat dikembangkan dengan meningkatkan kualitas dataset, mencoba algoritma ML yang dapat meningkatkan recall scoretanpa mengorbankan precision score, serta dengan cara mengimplementasi sistem real-time monitoring untuk terus mengupdate model dengan data yang baru. 
 
 ## **Links**
-- [Link Tableau](https://public.tableau.com/views/hotel_cancellation/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
-- [Link Streamlit](https://booking-cancellation-classification.streamlit.app/)
+- [Tableau](https://public.tableau.com/views/hotel_cancellation/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+- [Streamlit](https://booking-cancellation-classification.streamlit.app/)
 
 ****
 - Acknowledgement: Proyek ini diinisasi untuk Final Project pada Bootcamp Data Science & Machine Learning Purwadhika Digital School.
